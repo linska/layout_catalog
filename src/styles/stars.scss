@@ -1,7 +1,7 @@
 .stars {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: $stars-gap;
   margin: $main-offset 0;
 
   @for $i from 0 through 5 {
@@ -13,8 +13,8 @@
   }
 
   &__star {
-    width: 16px;
-    height: 16px;
+    width: $star-size;
+    height: $star-size;
     background-image: url('../images/star.svg');
     background-repeat: no-repeat;
     background-position: center center;

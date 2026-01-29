@@ -4,7 +4,7 @@
   align-items: center;
   padding: 0 $section-offset;
   background-color: $surface;
-  box-shadow: 0 2px 4px 0 $shadow;
+  box-shadow: $header-shadow;
 
   &__logo {
     text-decoration: none;

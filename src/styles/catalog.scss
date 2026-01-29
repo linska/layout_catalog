@@ -1,10 +1,10 @@
 .catalog {
   display: grid;
-  max-width: 1204px;
+  max-width: $catalog-width;
   margin: 0 auto;
-  padding: $section-offset 40px;
+  padding: $section-offset $section-offset-secondary;
   justify-content: center;
-  gap: 46px 48px;
+  gap: $catalog-gap;
   grid-template-columns: repeat(1, $card-width);
 
   @media (min-width: 488px) {

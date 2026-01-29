@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   gap: 4px;
-  margin: 16px 0;
+  margin: $main-offset 0;
 
   @for $i from 0 through 5 {
     &--#{$i} {

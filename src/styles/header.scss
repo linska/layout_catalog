@@ -2,9 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 $section-offset;
   background-color: $surface;
-  box-shadow: 0 2px 4px 0 #0000000d;
+  box-shadow: 0 2px 4px 0 $shadow;
 
   &__logo {
     text-decoration: none;

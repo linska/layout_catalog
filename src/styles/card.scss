@@ -1,14 +1,14 @@
 .card {
-  width: 200px;
+  width: $card-width;
   background-color: $surface;
   border: 1px solid $grey;
-  border-radius: 5px;
-  padding: 16px;
-  transition: transform 0.3s ease-in-out;
+  border-radius: $border-radius;
+  padding: $main-offset;
+  transition: transform $transition-duration ease-in-out;
 
   &__image {
     display: block;
-    margin: 16px auto 0;
+    margin: $main-offset auto 0;
   }
 
   &__title {
@@ -17,7 +17,7 @@
     line-height: 1.5;
     margin: 40px 0 0;
     color: $primary;
-    transition: color 0.3s ease-in-out;
+    transition: color $transition-duration ease-in-out;
   }
 
   &__code {
@@ -52,17 +52,17 @@
     height: 39px;
     background-color: $accent;
     border: 1px solid $accent;
-    border-radius: 5px;
+    border-radius: $border-radius;
     color: $surface;
     cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
     font-size: 14px;
-    margin: 16px 0 0;
+    margin: $main-offset 0 0;
     transition:
-      background-color 0.3s ease-in-out,
-      color 0.3s ease-in-out;
+      background-color $transition-duration ease-in-out,
+      color $transition-duration ease-in-out;
     outline: none;
 
     &:hover {
